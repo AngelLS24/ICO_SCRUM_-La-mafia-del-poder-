@@ -2,14 +2,14 @@
 
 ### Integrantes del equipo:
 
-  Chávez Onofre Gonzalo
+  Chávez Onofre Gonzalo - chavezgco@gmail.com
 
-  García Sánchez Ana Karen
+  García Sánchez Ana Karen - bigbang521.62@gmail.com
 
   Liberos Sánchez José Angel - angls2495@gmail.com
 
   López González Luis Alberto
 
-  Piña Reyes Cristopher Alan
+  Piña Reyes Cristopher Alan - cristopher.venom@gmail.com
 
-  Trujillo Zamudio Misael
+  Trujillo Zamudio Misael - misaeltrujillozam@gmail.com
