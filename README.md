@@ -1,6 +1,6 @@
 # ICO_SCRUM_-La-mafia-del-poder-
 
-Integrantes del equipo:
+### Integrantes del equipo:
 
   Chávez Onofre Gonzalo
 
