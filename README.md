@@ -8,7 +8,7 @@
 
   Liberos Sánchez José Angel - angls2495@gmail.com
 
-  López González Luis Alberto
+  López González Luis Alberto - luigsonic1@gmail.coms
 
   Piña Reyes Cristopher Alan - cristopher.venom@gmail.com
 
