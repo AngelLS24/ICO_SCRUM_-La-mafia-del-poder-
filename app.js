@@ -27,7 +27,7 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/alumnos', alumnosRouter);
 app.use('/apartados', apartadosRouter);
-app.use('/def_bas', defbasRouter);
+app.use('/definiciones_basicas', defbasRouter);
 app.use('/infut', infutRouter);
 
 // catch 404 and forward to error handler
