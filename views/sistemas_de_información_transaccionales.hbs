@@ -11,7 +11,9 @@
 
 Desde un punto de vista técnico, un TPS monitoriza los programas transaccionales (un tipo especial de programas). La base de un programa transaccional está en que gestiona los datos de forma que estos deben ser siempre consistentes (por ejemplo, si se realiza un pago con una tarjeta electrónica, la cantidad de dinero de la cuenta sobre la que realiza el cargo debe disminuir en la misma cantidad que la cuenta que recibe el pago, de no ser así, ninguna de las dos cuentas se modificará), si durante el transcurso de una transacción ocurriese algún error, el TPS debe poder deshacer las operaciones realizadas hasta ese instante. Si bien este tipo de integridad es que debe presentar cualquier operación de procesamiento de transacciones por lotes, es particularmente importante para el procesamiento de transacciones on-line: si, por ejemplo, un sistema de reserva de billetes de una línea aérea es utilizado simultáneamente por varios operadores, tras encontrar un asiento vacío, los datos sobre la reserva de dicho asiento deben ser bloqueados hasta que la reserva se realice, de no ser así, otro operador podría tener la impresión de que dicho asiento está libre cuando en realidad está siendo reservado en ese mismo instante. Sin las debidas precauciones, en una transacción podría ocurrir una reserva doble. Otra función de los monitores de transacciones es la detección y resolución de interbloqueos (deadlock), y cortar transacciones para recuperar el sistema en caso de fallos masivos.
 </p>
-    <p class="card-text"><small class="text-muted">Ejemplo de un Sistema de información transaccionales (TSP)</small></p>
+<p class="card-text"><small class="text-muted"><a href="https://www.slideshare.net/tukytutuky/tipos-de-sistemas-transaccionales" class="btn btn-dark text-white"> Referencia Bibliografica 1</a><small></p>
+
+    <p class="card-text"><small class="text-muted"><a href="https://www.monografias.com/trabajos94/sistemas-informacion-transaccionales-bancos/sistemas-informacion-transaccionales-bancos.shtml" class="btn btn-dark text-white"> Referencia Bibliografica 2</a><small></p>
   </div>
 </div>
 <div class="card">
