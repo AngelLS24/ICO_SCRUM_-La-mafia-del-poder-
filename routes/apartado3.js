@@ -1,8 +1,8 @@
 var express = require('express');
 var router = express.Router();
 
-router.get('/TPS', function(req, res, next) {
-  	res.render('paginas/apartado3/sistemas_de_información_transaccionales', { title: 'TPS' });
+router.get('/que_es_scrum', function(req, res, next) {
+  	res.render('paginas/apartado3/que_es_scrum', { title: '¿Qué es SCRUM?' });
 });
 
 router.get('/CRM', function(req, res, next){
