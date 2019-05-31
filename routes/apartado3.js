@@ -9,8 +9,8 @@ router.get('/CRM', function(req, res, next){
 	res.render('paginas/apartado3/CRM', { title: 'CRM' });
 });
 
-router.get('/MIS', function(req, res, next){
-	res.render('paginas/apartado3/CRM', { title: 'CRM' });
+router.get('/herramientas_scrum', function(req, res, next){
+	res.render('paginas/apartado3/herramientas_scrum', { title: 'Herramientas que se usan en SCRUM' });
 });
 
 router.get('/roles', function(req, res, next){
