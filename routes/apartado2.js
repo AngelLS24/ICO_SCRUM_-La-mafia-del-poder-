@@ -10,7 +10,7 @@ router.get('/CRM', function(req, res, next){
 });
 
 router.get('/MIS', function(req, res, next){
-	res.render('paginas/apartado2/MIS', { title: 'MIS' });
+	res.render('paginas/apartado2/sistmis', { title: 'MIS' });
 });
 
 module.exports = router;

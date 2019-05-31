@@ -27,7 +27,7 @@ router.get('/pinia', function(req, res, next) {
 });
 
 router.get('/trujillo', function(req, res, next) {
-  res.render('integrantes/misael', { title: 'Trujillo Zamudio Misael' });
+  res.render('integrantes/truji', { title: 'Trujillo Zamudio Misael' });
 });
 
 
