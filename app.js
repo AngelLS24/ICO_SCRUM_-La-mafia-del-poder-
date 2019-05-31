@@ -7,9 +7,10 @@ var logger = require('morgan');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var alumnosRouter = require('./routes/alumnos');
-var defbasRouter = require('./routes/definiciones_basicas');
-var infutRouter = require ('./routes/infut');
-var apartadosRouter = require('./routes/apartados')
+var apartadosRouter = require('./routes/apartados');
+var apartado1Router = require('./routes/apartado1');
+var apartado2Router = require('./routes/apartado2');
+var apartado3Router = require('./routes/apartado3');
 
 var app = express();
 
@@ -27,8 +28,9 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/alumnos', alumnosRouter);
 app.use('/apartados', apartadosRouter);
-app.use('/definiciones_basicas', defbasRouter);
-app.use('/infut', infutRouter);
+app.use('/apartados/apartado1', apartado1Router);
+app.use('/apartados/apartado2', apartado2Router);
+app.use('/apartados/apartado3', apartado3Router);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
